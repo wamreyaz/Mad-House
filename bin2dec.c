@@ -56,7 +56,7 @@ void main() //Don't believe an int is really needed.
 /* The loop extracts individual digits from the binary
 /* using modulus 10, multiplies it with the corresponding
 /* power of 2, holds the result in temp_dec. The next 
-/* digit is 'broyght forward'by division with 10.
+/* digit is 'brought forward'by division with 10.
 /* We then add all values to get the final result.
 */
 
