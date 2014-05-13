@@ -1,4 +1,5 @@
 /* A primer on how to do binary to decimal conversions.
+
 /* Let's say a we have a binary number 11001. To convert
 /* it to binary, we just write it as the sum of some 
 /* numbers multiplied by powers of 10. For 11001, it
