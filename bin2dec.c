@@ -4,9 +4,13 @@ void main()
 {
 	int n, nsave, rem, temp_dec;
 	int pow2 = 1 , dec = 0;
+	
+	
 	printf("The binary number, if ye will.\n");
 	scanf("%d", &n);
 	nsave = n;
+	
+	
 	while(n > 0)
 	{
 		rem = n % 10;
@@ -15,6 +19,8 @@ void main()
 		pow2 *= pow2 * 2;
 		n = n/10;
 	}
+	
+	
 	printf("The decimal equivalent"
 		   " of %d is %d.\n", nsave, dec);
 }
