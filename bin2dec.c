@@ -9,7 +9,7 @@
 /* 1 * 10^3 +
 /* 1 * 10^4
 /* Then you just multiply the pre-exponential part
-/* of each binary placewith 2 raised to the power its 
+/* of each binary place with 2 raised to the power its 
 /* corresponding ten's exponent, and add up.
 /* And just like that you get the number in 
 /* 		*drumroll*
