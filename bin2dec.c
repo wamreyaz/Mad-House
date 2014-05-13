@@ -29,7 +29,7 @@
 
 #include<stdio.h>
 
-void main() //Don't believe an int is really neded.
+void main() //Don't believe an int is really needed.
 {
 	int n, nsave, rem, temp_dec; 
 	int pow2 = 1 , dec = 0;
