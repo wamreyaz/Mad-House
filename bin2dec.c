@@ -1,23 +1,36 @@
 /* A primer on how to do binary to decimal conversions.
 
-/* Let's say a we have a binary number 11001. To convert
-/* it to binary, we just write it as the sum of some 
-/* numbers multiplied by powers of 10. For 11001, it
-/* would be,(in reverse order) 
-/* 1 * 10^0 +
-/* 0 * 10^1 +
-/* 0 * 10^2 +
-/* 1 * 10^3 +
-/* 1 * 10^4
-/* Then you just multiply the pre-exponential part
-/* of each binary place with 2 raised to the power its 
-/* corresponding ten's exponent, and add up.
-/* And just like that you get the number in 
-/* 		*drumroll*
-/* decimal. So that's it. Hope the code is legible.
-/* Cheers!
+   Let's say a we have a binary number 11001. To convert
+   it to binary, we just write it as the sum of some 
+   numbers multiplied by powers of 10. For 11001, it
+   would be,(in reverse order) 
+   1 * 10^0 +
+   0 * 10^1 +
+   0 * 10^2 +
+   1 * 10^3 +
+   1 * 10^4
+   Then you just multiply the pre-exponential part
+   of each binary place with 2 raised to the power its 
+   corresponding ten's exponent, and add up.
+   And just like that you get the number in 
+   		*drumroll*
+   decimal. So that's it. Hope the code is legible.
+   Cheers!
 */
 
+
+/* ADDED CLARIFICATION:
+   In the above case the decimal equivalent is
+   1 * 2^0 +
+   0 * 2^1 +
+   0 * 2^2 +
+   1 * 2^3 +
+   1 * 2*4 
+   
+   which is 2 + 0 + 0 + 8 + 16
+   adding upto 26, which is right. Yay!
+*/
+   
 
 
 
