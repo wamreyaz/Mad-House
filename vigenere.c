@@ -65,7 +65,6 @@ int main(int argc, string argv[])
 				input[i] += key;
 				input[i] %= 26;
 				input[i] += 'a';
-				//printf("%c", input[i]); // DEBUG POINT
 			}
 			else
 			{
