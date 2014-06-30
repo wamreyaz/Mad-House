@@ -19,7 +19,7 @@ int main(int argc, string argv[])
 	string input = GetString();
 	int size = strlen(input);
 	
-	/* The folloeing block of code first bring the alphabet down 
+	/* The following block of code first bring the alphabet down 
 	 * to between 0 and 26. Then we add the key and use modulo
 	 * 26 to wrap around 'z' and continue back from 'a'. Then we
 	 * again get it up to its ASCII value and save it.

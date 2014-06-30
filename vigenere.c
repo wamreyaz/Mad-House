@@ -43,10 +43,14 @@ int main(int argc, string argv[])
 	{	
 		if(isalpha(input[i]))
 		{	
+			// Make sure the key is the correct size
 			if(count >= size_keyW)
 			{	
 				count %= size_keyW;
 			}	
+
+
+			// Maintain case of key using ASCII arithmetic
 			if(isupper(keystring[count]))
 			{
 				key = (int) keystring[count] - (int) 'A';
